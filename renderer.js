@@ -54,9 +54,9 @@ console.log("Rendering presentation. This may take a minute.");
   var output = "slide"
 
   console.log('Loaded! Ready to render ' + slideCount + " slides");
-  slideRenderDuration = .7
-  renderDuration = slideCount * slideRenderDuration
-  console.log(renderDuration)
+  var slideRenderDuration = .7
+  var renderDuration = slideCount * slideRenderDuration
+  console.log("It will probably take about " + renderDuration + " seconds to render the slide. Sit back and relax")
 
   console.time(timer)
   for (var i = 0; i < slideCount; i++) { 
