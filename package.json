@@ -4,10 +4,10 @@
   "description": "",
   "main": "render.js",
   "dependencies": {
-    "command-line-args": "^5.0.2",
-    "file-url": "^2.0.2",
-    "npm": "^6.13.4",
-    "puppeteer": "^1.2.0"
+    "command-line-args": "",
+    "file-url": "",
+    "npm": "",
+    "puppeteer": ""
   },
   "devDependencies": {},
   "scripts": {
